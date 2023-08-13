@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mxlrc"
+version = "0.1.0"
+description = "Fetch synced lyrics from Musixmatch and save it as *.lrc file"
+authors = ["fahmi"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+tinytag = ">=1.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
